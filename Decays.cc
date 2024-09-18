@@ -239,9 +239,6 @@ void Decays::process(crpropa::Candidate *candidate) const {
         return;
     } else {
         performDecay(candidate);
-        std::cout << "d >= randDist" << std::endl;
-        std::cout << "d = " << d / crpropa::kpc << std::endl;
-        std::cout << "randDist = " << randDistance / crpropa::kpc << std::endl;
         return;
         // limitnextstep
     }

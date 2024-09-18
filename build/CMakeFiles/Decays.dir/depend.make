@@ -1,2 +1,2 @@
-# Empty dependencies file for CRPYTHIAxDecays.
+# Empty dependencies file for Decays.
 # This may be replaced when dependencies are built.

@@ -1,21 +1,19 @@
-#ifndef DECAYS_H
-#define DECAYS_H
-
+// #ifndef DECAYS_H
+// #define DECAYS_H
 #include <crpropa/Module.h>
 #include <crpropa/Candidate.h>
 
-#include "PythiaDecay.h"
+#include<string>
 
-namespace crpropa {
+// namespace crpropa {
 
-class Decays : public Module {
+class Decays : public crpropa::Module {
 private:
     
     bool haveSecondaries;
     // double limit;
     // double thinning;
-    std::string interactionTag;
-    PythiaDecay pythiaDecay;
+    mutable std::string decayTag;
 
 public:
     
@@ -38,15 +36,13 @@ public:
      */
     // void setThinning(double thinning);
     
-    void setDecayTag(std::string tag);
+    void setDecayTag(std::string tag) const;
     std::string getDecayTag() const;
     
-    // void initDecayTime(std::string filename);
-    
-    void performDecay(Candidate *candidate) const;
-    void process(Candidate *candidate) const;
+    void performDecay(crpropa::Candidate *candidate) const;
+    void process(crpropa::Candidate *candidate) const;
 };
 
-} // end crpropa namespace
+//} // end crpropa namespace
 
-#endif
+// #endif

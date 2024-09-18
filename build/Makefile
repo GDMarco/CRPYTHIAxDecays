@@ -57,10 +57,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Applications/CRPropa/CRPYTHIAxDecays
+CMAKE_SOURCE_DIR = /Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Applications/CRPropa/CRPYTHIAxDecays/build
+CMAKE_BINARY_DIR = /Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Applications/CRPropa/CRPYTHIAxDecays/build/CMakeFiles /Applications/CRPropa/CRPYTHIAxDecays/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays/build/CMakeFiles /Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Applications/CRPropa/CRPYTHIAxDecays/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -162,48 +162,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named CRPYTHIAxDecays
+# Target rules for targets named Decays
 
 # Build rule for target.
-CRPYTHIAxDecays: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CRPYTHIAxDecays
-.PHONY : CRPYTHIAxDecays
+Decays: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Decays
+.PHONY : Decays
 
 # fast build rule for target.
-CRPYTHIAxDecays/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CRPYTHIAxDecays.dir/build.make CMakeFiles/CRPYTHIAxDecays.dir/build
-.PHONY : CRPYTHIAxDecays/fast
-
-CRPYTHIAxDecays_wrap.o: CRPYTHIAxDecays_wrap.cxx.o
-.PHONY : CRPYTHIAxDecays_wrap.o
-
-# target to build an object file
-CRPYTHIAxDecays_wrap.cxx.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CRPYTHIAxDecays.dir/build.make CMakeFiles/CRPYTHIAxDecays.dir/CRPYTHIAxDecays_wrap.cxx.o
-.PHONY : CRPYTHIAxDecays_wrap.cxx.o
-
-CRPYTHIAxDecays_wrap.i: CRPYTHIAxDecays_wrap.cxx.i
-.PHONY : CRPYTHIAxDecays_wrap.i
-
-# target to preprocess a source file
-CRPYTHIAxDecays_wrap.cxx.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CRPYTHIAxDecays.dir/build.make CMakeFiles/CRPYTHIAxDecays.dir/CRPYTHIAxDecays_wrap.cxx.i
-.PHONY : CRPYTHIAxDecays_wrap.cxx.i
-
-CRPYTHIAxDecays_wrap.s: CRPYTHIAxDecays_wrap.cxx.s
-.PHONY : CRPYTHIAxDecays_wrap.s
-
-# target to generate assembly for a file
-CRPYTHIAxDecays_wrap.cxx.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CRPYTHIAxDecays.dir/build.make CMakeFiles/CRPYTHIAxDecays.dir/CRPYTHIAxDecays_wrap.cxx.s
-.PHONY : CRPYTHIAxDecays_wrap.cxx.s
+Decays/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Decays.dir/build.make CMakeFiles/Decays.dir/build
+.PHONY : Decays/fast
 
 Decays.o: Decays.cc.o
 .PHONY : Decays.o
 
 # target to build an object file
 Decays.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CRPYTHIAxDecays.dir/build.make CMakeFiles/CRPYTHIAxDecays.dir/Decays.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Decays.dir/build.make CMakeFiles/Decays.dir/Decays.cc.o
 .PHONY : Decays.cc.o
 
 Decays.i: Decays.cc.i
@@ -211,7 +187,7 @@ Decays.i: Decays.cc.i
 
 # target to preprocess a source file
 Decays.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CRPYTHIAxDecays.dir/build.make CMakeFiles/CRPYTHIAxDecays.dir/Decays.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Decays.dir/build.make CMakeFiles/Decays.dir/Decays.cc.i
 .PHONY : Decays.cc.i
 
 Decays.s: Decays.cc.s
@@ -219,32 +195,32 @@ Decays.s: Decays.cc.s
 
 # target to generate assembly for a file
 Decays.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CRPYTHIAxDecays.dir/build.make CMakeFiles/CRPYTHIAxDecays.dir/Decays.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Decays.dir/build.make CMakeFiles/Decays.dir/Decays.cc.s
 .PHONY : Decays.cc.s
 
-PythiaDecay.o: PythiaDecay.cc.o
-.PHONY : PythiaDecay.o
+Decays_wrap.o: Decays_wrap.cxx.o
+.PHONY : Decays_wrap.o
 
 # target to build an object file
-PythiaDecay.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CRPYTHIAxDecays.dir/build.make CMakeFiles/CRPYTHIAxDecays.dir/PythiaDecay.cc.o
-.PHONY : PythiaDecay.cc.o
+Decays_wrap.cxx.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Decays.dir/build.make CMakeFiles/Decays.dir/Decays_wrap.cxx.o
+.PHONY : Decays_wrap.cxx.o
 
-PythiaDecay.i: PythiaDecay.cc.i
-.PHONY : PythiaDecay.i
+Decays_wrap.i: Decays_wrap.cxx.i
+.PHONY : Decays_wrap.i
 
 # target to preprocess a source file
-PythiaDecay.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CRPYTHIAxDecays.dir/build.make CMakeFiles/CRPYTHIAxDecays.dir/PythiaDecay.cc.i
-.PHONY : PythiaDecay.cc.i
+Decays_wrap.cxx.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Decays.dir/build.make CMakeFiles/Decays.dir/Decays_wrap.cxx.i
+.PHONY : Decays_wrap.cxx.i
 
-PythiaDecay.s: PythiaDecay.cc.s
-.PHONY : PythiaDecay.s
+Decays_wrap.s: Decays_wrap.cxx.s
+.PHONY : Decays_wrap.s
 
 # target to generate assembly for a file
-PythiaDecay.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CRPYTHIAxDecays.dir/build.make CMakeFiles/CRPYTHIAxDecays.dir/PythiaDecay.cc.s
-.PHONY : PythiaDecay.cc.s
+Decays_wrap.cxx.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Decays.dir/build.make CMakeFiles/Decays.dir/Decays_wrap.cxx.s
+.PHONY : Decays_wrap.cxx.s
 
 # Help Target
 help:
@@ -258,16 +234,13 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... CRPYTHIAxDecays"
-	@echo "... CRPYTHIAxDecays_wrap.o"
-	@echo "... CRPYTHIAxDecays_wrap.i"
-	@echo "... CRPYTHIAxDecays_wrap.s"
+	@echo "... Decays"
 	@echo "... Decays.o"
 	@echo "... Decays.i"
 	@echo "... Decays.s"
-	@echo "... PythiaDecay.o"
-	@echo "... PythiaDecay.i"
-	@echo "... PythiaDecay.s"
+	@echo "... Decays_wrap.o"
+	@echo "... Decays_wrap.i"
+	@echo "... Decays_wrap.s"
 .PHONY : help
 
 

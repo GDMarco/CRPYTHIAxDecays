@@ -1,8 +1,8 @@
-# Install script for directory: /Applications/CRPropa/CRPYTHIAxDecays
+# Install script for directory: /Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Applications/CRPropa/CRPYTHIAxDecays/build")
+  set(CMAKE_INSTALL_PREFIX "/Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays/build")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,46 +39,46 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/Applications/CRPropa/CRPYTHIAxDecays/build/lib/python3.11/site-packages/CRPYTHIAxDecays")
+   "/Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays/build/lib/python3.11/site-packages/Decays")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/Applications/CRPropa/CRPYTHIAxDecays/build/lib/python3.11/site-packages" TYPE DIRECTORY FILES "/Applications/CRPropa/CRPYTHIAxDecays/python/CRPYTHIAxDecays")
+  file(INSTALL DESTINATION "/Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays/build/lib/python3.11/site-packages" TYPE DIRECTORY FILES "/Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays/python/Decays")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/Applications/CRPropa/CRPYTHIAxDecays/build/lib/python3.11/site-packages/CRPYTHIAxDecays/CRPYTHIAxDecays.py")
+   "/Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays/build/lib/python3.11/site-packages/Decays/Decays.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/Applications/CRPropa/CRPYTHIAxDecays/build/lib/python3.11/site-packages/CRPYTHIAxDecays" TYPE FILE FILES "/Applications/CRPropa/CRPYTHIAxDecays/build/CRPYTHIAxDecays.py")
+  file(INSTALL DESTINATION "/Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays/build/lib/python3.11/site-packages/Decays" TYPE FILE FILES "/Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays/build/Decays.py")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/Applications/CRPropa/CRPYTHIAxDecays/build/lib/python3.11/site-packages/CRPYTHIAxDecays/_CRPYTHIAxDecays.so")
+   "/Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays/build/lib/python3.11/site-packages/Decays/_Decays.so")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/Applications/CRPropa/CRPYTHIAxDecays/build/lib/python3.11/site-packages/CRPYTHIAxDecays" TYPE MODULE FILES "/Applications/CRPropa/CRPYTHIAxDecays/build/_CRPYTHIAxDecays.so")
-  if(EXISTS "$ENV{DESTDIR}/Applications/CRPropa/CRPYTHIAxDecays/build/lib/python3.11/site-packages/CRPYTHIAxDecays/_CRPYTHIAxDecays.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/Applications/CRPropa/CRPYTHIAxDecays/build/lib/python3.11/site-packages/CRPYTHIAxDecays/_CRPYTHIAxDecays.so")
+  file(INSTALL DESTINATION "/Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays/build/lib/python3.11/site-packages/Decays" TYPE MODULE FILES "/Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays/build/_Decays.so")
+  if(EXISTS "$ENV{DESTDIR}/Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays/build/lib/python3.11/site-packages/Decays/_Decays.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays/build/lib/python3.11/site-packages/Decays/_Decays.so")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Applications/PYTHIA/pythia8311/lib"
       -delete_rpath "/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/lib"
-      "$ENV{DESTDIR}/Applications/CRPropa/CRPYTHIAxDecays/build/lib/python3.11/site-packages/CRPYTHIAxDecays/_CRPYTHIAxDecays.so")
+      -delete_rpath "/Applications/PYTHIA/pythia8311/lib"
+      "$ENV{DESTDIR}/Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays/build/lib/python3.11/site-packages/Decays/_Decays.so")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" -x "$ENV{DESTDIR}/Applications/CRPropa/CRPYTHIAxDecays/build/lib/python3.11/site-packages/CRPYTHIAxDecays/_CRPYTHIAxDecays.so")
+      execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" -x "$ENV{DESTDIR}/Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays/build/lib/python3.11/site-packages/Decays/_Decays.so")
     endif()
   endif()
 endif()
@@ -91,5 +91,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Applications/CRPropa/CRPYTHIAxDecays/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

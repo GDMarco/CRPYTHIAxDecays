@@ -35,7 +35,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Platform/Darwin.cmake"
   "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Platform/UnixPaths.cmake"
   "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/SelectLibraryConfigurations.cmake"
-  "/Applications/CRPropa/CRPYTHIAxDecays/CMakeLists.txt"
+  "/Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays/CMakeLists.txt"
   "CMakeFiles/3.26.4/CMakeCCompiler.cmake"
   "CMakeFiles/3.26.4/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.26.4/CMakeSystem.cmake"
@@ -54,5 +54,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/CRPYTHIAxDecays.dir/DependInfo.cmake"
+  "CMakeFiles/Decays.dir/DependInfo.cmake"
   )

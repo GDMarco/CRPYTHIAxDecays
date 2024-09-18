@@ -13,28 +13,38 @@ namespace Pythia8 {
 
 class PythiaDecay {
 private:
-    Pythia pythia; // pythia instance
+    
     std::vector<std::vector<double>> secondaries;
     
 public:
     
     PythiaDecay() {
+        // Pythia pythia;
         Pythia pythia;
         pythia.init();
     };
     
-    PythiaDecay(std::vector<int> IdDecaying, bool activeHadronization = false) {
-        Pythia pythia;
+    PythiaDecay(int Id, double E, std::vector<int> IdDecaying, bool activeHadronization = false) {
+        // Pythia pythia;
+        
+        std::cout << "Inside PythiaDecay class!" << std::endl;
+        
+        Pythia pythia; // pythia instance
         
         // Turn off process-level generation and enable hadronization
         pythia.readString("ProcessLevel:all = off");
-        if (activeHadronization)
+        if (activeHadronization) {
             pythia.readString("HadronLevel:Hadronize = on");
+        } else {
+            pythia.readString("HadronLevel:Hadronize = off");
+        }
         
         for (int i; i < IdDecaying.size(); i++)
             pythia.readString(std::to_string(IdDecaying[i]) + ":mayDecay = on"); // Enable particle decay
         
         pythia.init();
+        generateSecondaries(Id, E, pythia);
+        
     };
     //~PythiaDecay();
     
@@ -45,8 +55,10 @@ public:
         return sqrt(E * E - mass * mass);
     };
     
-    void generateSecondaries(int Id, double E) {
+    void generateSecondaries(int Id, double E, Pythia& pythia) {
         double mass = pythia.particleData.m0(Id);
+        
+        std::cout << "mass of the particle: " << mass << std::endl;
         
         Event& event = pythia.event;
         event.reset();
@@ -70,6 +82,15 @@ public:
                 secondaries.push_back(prop);
             }
         }
+        
+        for (const auto& row : secondaries) {
+                // Loop through the inner vector (columns)
+                for (const auto& elem : row) {
+                    std::cout << elem << " "; // Print each element with a space
+                }
+                std::cout << std::endl; // Print a new line after each row
+            }
+
         
         this->secondaries = secondaries;
     };
@@ -129,6 +150,8 @@ void Decays::performDecay(crpropa::Candidate *candidate) const {
     // I'd need to change the Candidate.cpp in order to get the Vector3d dir.
     // double px =
     
+    std::cout << "Inside performDecay class!" << std::endl;
+    
     candidate->setActive(false);
     
     if (not haveSecondaries)
@@ -144,10 +167,19 @@ void Decays::performDecay(crpropa::Candidate *candidate) const {
     
     std::vector<int> IdDecaying = {13, 211};
     bool hadronize = false;
-    Pythia8::PythiaDecay pythiaDecay(IdDecaying, hadronize);
+    Pythia8::PythiaDecay pythiaDecay(Id, E / crpropa::GeV, IdDecaying, hadronize);
     
-    pythiaDecay.generateSecondaries(Id, E / crpropa::GeV);
+    // pythiaDecay.generateSecondaries(Id, E / crpropa::GeV);
     std::vector<std::vector<double>> secondaries = pythiaDecay.getSecondaries(); // pay attention to the units! here in CRPropa the SI is used, so convert before using.
+    
+    for (const auto& row : secondaries) {
+            // Loop through the inner vector (columns)
+            for (const auto& elem : row) {
+                std::cout << elem << " "; // Print each element with a space
+            }
+            std::cout << std::endl; // Print a new line after each row
+        }
+
     
     std::string decayTag = getDecayTag();
     double w = 1; // not developed
@@ -173,6 +205,7 @@ void Decays::process(crpropa::Candidate *candidate) const {
     
     double t_lab, gamma;
     std::string tag;
+    
     // only for muons and charged pions
     if (std::abs(Id) == 13) {
         
@@ -196,7 +229,7 @@ void Decays::process(crpropa::Candidate *candidate) const {
         
     double beta = sqrt(1 - 1 / gamma / gamma);
     double distance = crpropa::c_light * beta * t_lab;
-    double decayRate = 1 / distance;
+    double decayRate = 1 / distance; // see if to multiply for (1+z)
     
     // check if it makes sense
     crpropa::Random &random = crpropa::Random::instance();
@@ -206,7 +239,11 @@ void Decays::process(crpropa::Candidate *candidate) const {
         return;
     } else {
         performDecay(candidate);
+        std::cout << "d >= randDist" << std::endl;
+        std::cout << "d = " << d / crpropa::kpc << std::endl;
+        std::cout << "randDist = " << randDistance / crpropa::kpc << std::endl;
         return;
+        // limitnextstep
     }
 }
 

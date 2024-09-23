@@ -2,6 +2,10 @@
 
 #include "crpropa/Units.h"
 #include "crpropa/Random.h"
+#include "crpropa/Vector3.h"
+#include "crpropa/Variant.h"
+#include "crpropa/ParticleState.h"
+#include "crpropa/Candidate.h"
 
 #include <string>
 #include <cstdlib>
@@ -19,19 +23,14 @@ private:
 public:
     
     PythiaDecay() {
-        // Pythia pythia;
         Pythia pythia;
         pythia.init();
     };
     
-    PythiaDecay(int Id, double E, std::vector<int> IdDecaying, bool activeHadronization = false) {
-        // Pythia pythia;
-        
-        std::cout << "Inside PythiaDecay class!" << std::endl;
+    PythiaDecay(int Id, double E, crpropa::Vector3d dir, std::vector<int> IdDecaying, bool activeHadronization = false) {
         
         Pythia pythia; // pythia instance
         
-        // Turn off process-level generation and enable hadronization
         pythia.readString("ProcessLevel:all = off");
         if (activeHadronization) {
             pythia.readString("HadronLevel:Hadronize = on");
@@ -40,25 +39,19 @@ public:
         }
         
         for (int i; i < IdDecaying.size(); i++)
-            pythia.readString(std::to_string(IdDecaying[i]) + ":mayDecay = on"); // Enable particle decay
+            pythia.readString(std::to_string(IdDecaying[i]) + ":mayDecay = on"); // enable particle decay
         
         pythia.init();
-        generateSecondaries(Id, E, pythia);
+        generateSecondaries(Id, E, dir, pythia);
         
     };
-    //~PythiaDecay();
-    
-    // void initGeneratorDecay(int Id, double E); // check the units.
-    // double mass, The mass can be taken from the Id in pythia directly.
     
     double getMomentum(double E, double mass) {
         return sqrt(E * E - mass * mass);
     };
     
-    void generateSecondaries(int Id, double E, Pythia& pythia) {
+    void generateSecondaries(int Id, double E, crpropa::Vector3d dir, Pythia& pythia) {
         double mass = pythia.particleData.m0(Id);
-        
-        std::cout << "mass of the particle: " << mass << std::endl;
         
         Event& event = pythia.event;
         event.reset();
@@ -66,8 +59,7 @@ public:
         double p = getMomentum(E, mass);
         
         // (id, status, mother1, mother2, daughter1, daughter2, color1, color2, px, py, pz, e, m)
-        // particle momentum all along the x axis
-        event.append(Id, 1, 0, 0, 0, 0, 0, 0, p, 0.0, 0.0, E, mass);
+        event.append(Id, 1, 0, 0, 0, 0, 0, 0, p * dir.x, p * dir.y, p * dir.z, E, mass);
         
         if (!pythia.next()) {
             cout << "Event generation failed." << endl;
@@ -77,21 +69,10 @@ public:
         
         for (int i = 0; i < event.size(); ++i) {
             if (event[i].isFinal()) {
-                vector<double> prop = { (double) event[i].id(), event[i].e()};
-                // event[i].px(),
+                vector<double> prop = { (double) event[i].id(), event[i].px(), event[i].py(), event[i].pz(), event[i].e()};
                 secondaries.push_back(prop);
             }
         }
-        
-        for (const auto& row : secondaries) {
-                // Loop through the inner vector (columns)
-                for (const auto& elem : row) {
-                    std::cout << elem << " "; // Print each element with a space
-                }
-                std::cout << std::endl; // Print a new line after each row
-            }
-
-        
         this->secondaries = secondaries;
     };
     
@@ -100,9 +81,6 @@ public:
     };
 };
 } // end Pythia8 namespace
-
-
-// namespace crpropa {
 
 static const double tau_muon = 2.1969811e-6 * crpropa::second; // averaged proper time of the muon decay
 static const double mass_muon = 1.883531627e-28 * crpropa::kilogram;
@@ -118,10 +96,10 @@ static const double massPionGeV = 139.57039e-3; // GeV/c^2
 static const double mass_cpion = mWkg * massPionGeV / massWGeV * crpropa::kilogram;
 static const double mcpic2 = mass_cpion * crpropa::c_squared;
 
-Decays::Decays(bool haveSecondaries) { // double thinning, double limit
+Decays::Decays(bool haveSecondaries, double limit) { // double thinning,
     
     // setThinning(thinning);
-    // setLimit(limit);
+    setLimit(limit);
     setHaveSecondaries(haveSecondaries);
     setDescription("Decay from PYTHIA");
     
@@ -131,67 +109,81 @@ void Decays::setHaveSecondaries(bool haveSecondaries) {
     this->haveSecondaries = haveSecondaries;
 }
 
-/**
-void EMMuonPairProduction::setLimit(double limit) {
+
+void Decays::setLimit(double limit) {
     this->limit = limit;
 }
-
-
-void EMMuonPairProduction::setThinning(double thinning) {
+/**
+void Decays::setThinning(double thinning) {
     this->thinning = thinning;
 }
 */
-
 void Decays::performDecay(crpropa::Candidate *candidate) const {
     
     int Id = candidate->current.getId();
     double E = candidate->current.getEnergy();
-    
-    // I'd need to change the Candidate.cpp in order to get the Vector3d dir.
-    // double px =
-    
-    std::cout << "Inside performDecay class!" << std::endl;
+    double z = candidate->getRedshift();
+    crpropa::Vector3d dir = candidate->current.getDirection();
+    crpropa::Vector3d pos0 = candidate->current.getPosition();
+    double trajectoryLength = candidate->getTrajectoryLength();
+    crpropa::Candidate::PropertyMap properties = candidate->properties;
+    crpropa::ParticleState source = candidate->source;
+    crpropa::ParticleState created = candidate->created;
+    crpropa::ParticleState current = candidate->current;
+    crpropa::ParticleState previous = candidate->previous;
     
     candidate->setActive(false);
     
     if (not haveSecondaries)
         return;
     
-    /**
-    if (std::abs(Id) == 13) {
-        double mass = mass_muon; // kg
-    } else {
-        double mass = mass_cpion; // kg
-    }
-    */
-    
     std::vector<int> IdDecaying = {13, 211};
     bool hadronize = false;
-    Pythia8::PythiaDecay pythiaDecay(Id, E / crpropa::GeV, IdDecaying, hadronize);
+    Pythia8::PythiaDecay pythiaDecay(Id, E / crpropa::GeV, dir, IdDecaying, hadronize);
     
-    // pythiaDecay.generateSecondaries(Id, E / crpropa::GeV);
-    std::vector<std::vector<double>> secondaries = pythiaDecay.getSecondaries(); // pay attention to the units! here in CRPropa the SI is used, so convert before using.
-    
-    for (const auto& row : secondaries) {
-            // Loop through the inner vector (columns)
-            for (const auto& elem : row) {
-                std::cout << elem << " "; // Print each element with a space
-            }
-            std::cout << std::endl; // Print a new line after each row
-        }
-
+    std::vector<std::vector<double>> secondaries = pythiaDecay.getSecondaries(); // pay attention to the units! here in CRPropa the SI is used.
     
     std::string decayTag = getDecayTag();
     double w = 1; // not developed
+    
     // sample random position along current step
     crpropa::Random &random = crpropa::Random::instance();
     crpropa::Vector3d pos = random.randomInterpolatedPosition(candidate->previous.getPosition(), candidate->current.getPosition());
     
     for (int i = 0; i < secondaries.size(); i++) {
-        // to see how to use the w (it should be multiplicative), dir and z...
-        // in addSecondary(...) z and dir are not allowed as arguments
+        // to see how to use the w (it should be multiplicative)
         std::vector<double> row = secondaries[i];
-        candidate->addSecondary(row[0], row[1] * crpropa::GeV, pos, w, decayTag); // , dir, z, w, ?
+        
+        crpropa::Vector3d cDir(row[1], row[2], row[3]);
+        // * crpropa::GeV / crpropa::c_light
+        
+        // row[0], row[4] * crpropa::GeV, pos, cDir / cDir.getR(), z, w, decayTag
+        crpropa::Candidate* c = new crpropa::Candidate();
+        
+        c->setRedshift(z);
+        c->setTrajectoryLength(trajectoryLength - (pos0 - pos).getR());
+        c->updateWeight(w);
+        c->setTagOrigin(decayTag);
+        
+        for (crpropa::Candidate::PropertyMap::const_iterator it = properties.begin(); it != properties.end(); ++it) {
+                c->setProperty(it->first, it->second);
+            }
+        
+        // it can be done more efficiently
+        c->source = source;
+        c->previous = previous;
+        c->created = previous;
+        c->current = current;
+        
+        c->current.setId(int(row[0]));
+        c->current.setEnergy(row[4] * crpropa::GeV);
+        c->current.setPosition(pos);
+        c->created.setPosition(pos);
+        c->current.setDirection(cDir / cDir.getR());
+        
+        // c->parent = this; // it is needed?? see which parameters the outputs take
+        
+        candidate->addSecondary(c);
     }
     
 }
@@ -235,12 +227,12 @@ void Decays::process(crpropa::Candidate *candidate) const {
     crpropa::Random &random = crpropa::Random::instance();
     double randDistance = -log(random.rand()) / decayRate;
     
-    if (d < randDistance) {
+    if (d <= randDistance) {
+        candidate->limitNextStep(limit / decayRate);
         return;
     } else {
         performDecay(candidate);
         return;
-        // limitnextstep
     }
 }
 
@@ -251,6 +243,4 @@ void Decays::setDecayTag(std::string tag) const {
 std::string Decays::getDecayTag() const {
     return this->decayTag;
 }
-
-// } // end namespace crpropa
 

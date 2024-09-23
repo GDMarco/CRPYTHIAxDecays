@@ -4864,6 +4864,51 @@ extern "C" {
 SWIGINTERN int _wrap_new_Decays__SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
   bool arg1 ;
+  double arg2 ;
+  bool val1 ;
+  int ecode1 = 0 ;
+  double val2 ;
+  int ecode2 = 0 ;
+  Decays *result = 0 ;
+  
+  (void)self;
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  ecode1 = SWIG_AsVal_bool(swig_obj[0], &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_Decays" "', argument " "1"" of type '" "bool""'");
+  } 
+  arg1 = static_cast< bool >(val1);
+  ecode2 = SWIG_AsVal_double(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "new_Decays" "', argument " "2"" of type '" "double""'");
+  } 
+  arg2 = static_cast< double >(val2);
+  {
+    try {
+      {
+        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+        result = (Decays *)new Decays(arg1,arg2);
+        SWIG_PYTHON_THREAD_END_ALLOW;
+      }
+    } catch (Swig::DirectorException &e) {
+      SWIG_exception(SWIG_RuntimeError, e.getMessage());
+    } catch (const std::exception& e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    } catch (const char *e) {
+      SWIG_exception(SWIG_RuntimeError, e);
+    }
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Decays, SWIG_BUILTIN_INIT |  0 );
+  result->addReference();
+  return resultobj == Py_None ? -1 : 0;
+fail:
+  return -1;
+}
+
+
+SWIGINTERN int _wrap_new_Decays__SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  bool arg1 ;
   bool val1 ;
   int ecode1 = 0 ;
   Decays *result = 0 ;
@@ -4898,7 +4943,7 @@ fail:
 }
 
 
-SWIGINTERN int _wrap_new_Decays__SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **SWIGUNUSEDPARM(swig_obj)) {
+SWIGINTERN int _wrap_new_Decays__SWIG_2(PyObject *self, Py_ssize_t nobjs, PyObject **SWIGUNUSEDPARM(swig_obj)) {
   PyObject *resultobj = 0;
   Decays *result = 0 ;
   
@@ -4929,16 +4974,16 @@ fail:
 
 SWIGINTERN int _wrap_new_Decays(PyObject *self, PyObject *args, PyObject *kwargs) {
   Py_ssize_t argc;
-  PyObject *argv[2] = {
+  PyObject *argv[3] = {
     0
   };
   
   (void)self;
   if (!SWIG_Python_CheckNoKeywords(kwargs, "new_Decays")) SWIG_fail;
-  if (!(argc = SWIG_Python_UnpackTuple(args, "new_Decays", 0, 1, argv))) SWIG_fail;
+  if (!(argc = SWIG_Python_UnpackTuple(args, "new_Decays", 0, 2, argv))) SWIG_fail;
   --argc;
   if (argc == 0) {
-    return _wrap_new_Decays__SWIG_1(self, argc, argv);
+    return _wrap_new_Decays__SWIG_2(self, argc, argv);
   }
   if (argc == 1) {
     int _v = 0;
@@ -4947,13 +4992,30 @@ SWIGINTERN int _wrap_new_Decays(PyObject *self, PyObject *args, PyObject *kwargs
       _v = SWIG_CheckState(res);
     }
     if (_v) {
-      return _wrap_new_Decays__SWIG_0(self, argc, argv);
+      return _wrap_new_Decays__SWIG_1(self, argc, argv);
+    }
+  }
+  if (argc == 2) {
+    int _v = 0;
+    {
+      int res = SWIG_AsVal_bool(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      {
+        int res = SWIG_AsVal_double(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_new_Decays__SWIG_0(self, argc, argv);
+      }
     }
   }
   
 fail:
   SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'new_Decays'.\n"
     "  Possible C/C++ prototypes are:\n"
+    "    Decays::Decays(bool,double)\n"
     "    Decays::Decays(bool)\n"
     "    Decays::Decays()\n");
   return -1;
@@ -4988,6 +5050,51 @@ SWIGINTERN PyObject *_wrap_Decays_setHaveSecondaries(PyObject *self, PyObject *a
       {
         SWIG_PYTHON_THREAD_BEGIN_ALLOW;
         (arg1)->setHaveSecondaries(arg2);
+        SWIG_PYTHON_THREAD_END_ALLOW;
+      }
+    } catch (Swig::DirectorException &e) {
+      SWIG_exception(SWIG_RuntimeError, e.getMessage());
+    } catch (const std::exception& e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    } catch (const char *e) {
+      SWIG_exception(SWIG_RuntimeError, e);
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Decays_setLimit(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  Decays *arg1 = (Decays *) 0 ;
+  double arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  double val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(self, &argp1,SWIGTYPE_p_Decays, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Decays_setLimit" "', argument " "1"" of type '" "Decays *""'"); 
+  }
+  arg1 = reinterpret_cast< Decays * >(argp1);
+  ecode2 = SWIG_AsVal_double(swig_obj[0], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Decays_setLimit" "', argument " "2"" of type '" "double""'");
+  } 
+  arg2 = static_cast< double >(val2);
+  {
+    try {
+      {
+        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+        (arg1)->setLimit(arg2);
         SWIG_PYTHON_THREAD_END_ALLOW;
       }
     } catch (Swig::DirectorException &e) {
@@ -5241,6 +5348,7 @@ SwigPyBuiltin__Decays_richcompare(PyObject *self, PyObject *other, int op) {
 
 SWIGINTERN PyMethodDef SwigPyBuiltin__Decays_methods[] = {
   { "setHaveSecondaries", _wrap_Decays_setHaveSecondaries, METH_O, "setHaveSecondaries(Decays self, bool haveSecondaries)" },
+  { "setLimit", _wrap_Decays_setLimit, METH_O, "setLimit(Decays self, double limit)" },
   { "setDecayTag", _wrap_Decays_setDecayTag, METH_O, "setDecayTag(Decays self, std::string tag)" },
   { "getDecayTag", _wrap_Decays_getDecayTag, METH_NOARGS, "getDecayTag(Decays self) -> std::string" },
   { "performDecay", _wrap_Decays_performDecay, METH_O, "performDecay(Decays self, Candidate candidate)" },

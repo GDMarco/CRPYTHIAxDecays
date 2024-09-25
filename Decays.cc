@@ -96,28 +96,39 @@ static const double massPionGeV = 139.57039e-3; // GeV/c^2
 static const double mass_cpion = mWkg * massPionGeV / massWGeV * crpropa::kilogram;
 static const double mcpic2 = mass_cpion * crpropa::c_squared;
 
-Decays::Decays(bool haveSecondaries, double limit) { // double thinning,
+Decays::Decays(bool haveOtherSecondaries, bool haveNeutrinos, bool angularCorrection, double limit) { // double thinning,
     
     // setThinning(thinning);
     setLimit(limit);
-    setHaveSecondaries(haveSecondaries);
+    setHaveOtherSecondaries(haveOtherSecondaries);
+    setHaveNeutrinos(haveNeutrinos);
+    setAngularCorrection(angularCorrection);
     setDescription("Decay from PYTHIA");
     
 }
 
-void Decays::setHaveSecondaries(bool haveSecondaries) {
-    this->haveSecondaries = haveSecondaries;
+void Decays::setHaveOtherSecondaries(bool haveOtherSecondaries) {
+    this->haveOtherSecondaries = haveOtherSecondaries;
 }
 
+void Decays::setHaveNeutrinos(bool haveNeutrinos) {
+    this->haveNeutrinos = haveNeutrinos;
+}
+
+void Decays::setAngularCorrection(bool angularCorrection) {
+    this->angularCorrection = angularCorrection;
+}
 
 void Decays::setLimit(double limit) {
     this->limit = limit;
 }
+
 /**
 void Decays::setThinning(double thinning) {
     this->thinning = thinning;
 }
 */
+
 void Decays::performDecay(crpropa::Candidate *candidate) const {
     
     int Id = candidate->current.getId();
@@ -134,14 +145,11 @@ void Decays::performDecay(crpropa::Candidate *candidate) const {
     
     candidate->setActive(false);
     
-    if (not haveSecondaries)
-        return;
-    
     std::vector<int> IdDecaying = {13, 211};
     bool hadronize = false;
     Pythia8::PythiaDecay pythiaDecay(Id, E / crpropa::GeV, dir, IdDecaying, hadronize);
     
-    std::vector<std::vector<double>> secondaries = pythiaDecay.getSecondaries(); // pay attention to the units! here in CRPropa the SI is used.
+    std::vector<std::vector<double>> secondaries = pythiaDecay.getSecondaries();
     
     std::string decayTag = getDecayTag();
     double w = 1; // not developed
@@ -154,38 +162,67 @@ void Decays::performDecay(crpropa::Candidate *candidate) const {
         // to see how to use the w (it should be multiplicative)
         std::vector<double> row = secondaries[i];
         
-        crpropa::Vector3d cDir(row[1], row[2], row[3]);
-        // * crpropa::GeV / crpropa::c_light
-        
-        // row[0], row[4] * crpropa::GeV, pos, cDir / cDir.getR(), z, w, decayTag
-        crpropa::Candidate* c = new crpropa::Candidate();
-        
-        c->setRedshift(z);
-        c->setTrajectoryLength(trajectoryLength - (pos0 - pos).getR());
-        c->updateWeight(w);
-        c->setTagOrigin(decayTag);
-        
-        for (crpropa::Candidate::PropertyMap::const_iterator it = properties.begin(); it != properties.end(); ++it) {
-                c->setProperty(it->first, it->second);
+        if ((std::abs(int(row[0])) == 12 or std::abs(int(row[0])) == 12 or std::abs(int(row[0])) == 12)) {
+            if (haveNeutrinos) {
+                // row[0], row[4] * crpropa::GeV, pos, cDir / cDir.getR(), z, w, decayTag
+                crpropa::Candidate* c = new crpropa::Candidate();
+                
+                c->setRedshift(z);
+                c->setTrajectoryLength(trajectoryLength - (pos0 - pos).getR());
+                c->updateWeight(w);
+                c->setTagOrigin(decayTag);
+                for (crpropa::Candidate::PropertyMap::const_iterator it = properties.begin(); it != properties.end(); ++it) {
+                        c->setProperty(it->first, it->second);
+                    }
+                // it can be done more efficiently
+                c->source = source;
+                c->previous = previous;
+                c->created = previous;
+                c->current = current;
+                
+                c->current.setId(int(row[0]));
+                c->current.setEnergy(row[4] * crpropa::GeV);
+                c->current.setPosition(pos);
+                c->created.setPosition(pos);
+                if (angularCorrection) {
+                    crpropa::Vector3d cDir(row[1], row[2], row[3]);
+                    c->current.setDirection(cDir / cDir.getR());
+                }
+                // c->parent = this; // it is needed?? see which parameters the outputs take
+                
+                candidate->addSecondary(c);
+            } else {
+                return;
             }
-        
-        // it can be done more efficiently
-        c->source = source;
-        c->previous = previous;
-        c->created = previous;
-        c->current = current;
-        
-        c->current.setId(int(row[0]));
-        c->current.setEnergy(row[4] * crpropa::GeV);
-        c->current.setPosition(pos);
-        c->created.setPosition(pos);
-        c->current.setDirection(cDir / cDir.getR());
-        
-        // c->parent = this; // it is needed?? see which parameters the outputs take
-        
-        candidate->addSecondary(c);
+        } else if (haveOtherSecondaries) {
+            crpropa::Candidate* c = new crpropa::Candidate();
+            
+            c->setRedshift(z);
+            c->setTrajectoryLength(trajectoryLength - (pos0 - pos).getR());
+            c->updateWeight(w);
+            c->setTagOrigin(decayTag);
+            
+            for (crpropa::Candidate::PropertyMap::const_iterator it = properties.begin(); it != properties.end(); ++it) {
+                    c->setProperty(it->first, it->second);
+                }
+            
+            c->source = source;
+            c->previous = previous;
+            c->created = previous;
+            c->current = current;
+            c->current.setId(int(row[0]));
+            c->current.setEnergy(row[4] * crpropa::GeV);
+            c->current.setPosition(pos);
+            c->created.setPosition(pos);
+            if (angularCorrection) {
+                crpropa::Vector3d cDir(row[1], row[2], row[3]);
+                c->current.setDirection(cDir / cDir.getR());
+            }
+            candidate->addSecondary(c);
+        } else {
+            return;
+        }
     }
-    
 }
 
 void Decays::process(crpropa::Candidate *candidate) const {

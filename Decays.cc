@@ -31,6 +31,11 @@ public:
         
         Pythia pythia; // pythia instance
         
+        crpropa::Random rand;
+        int seed = rand.randInt(900000000);
+        pythia.readString("Random:setSeed = on");
+        pythia.readString("Random:seed = " + std::to_string(seed));
+        
         pythia.readString("ProcessLevel:all = off");
         if (activeHadronization) {
             pythia.readString("HadronLevel:Hadronize = on");
@@ -51,6 +56,9 @@ public:
     };
     
     void generateSecondaries(int Id, double E, crpropa::Vector3d dir, Pythia& pythia) {
+        
+        this->secondaries.clear();
+        
         double mass = pythia.particleData.m0(Id);
         
         Event& event = pythia.event;

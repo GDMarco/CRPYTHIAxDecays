@@ -28,8 +28,9 @@ public:
     };
     
     PythiaDecay(int Id, double E, crpropa::Vector3d dir, std::vector<int> IdDecaying, bool activeHadronization = false) {
-        
-        Pythia pythia; // pythia instance
+        std::string xmlDir = "./";
+        bool printBanner = false;
+        Pythia pythia(xmlDir, printBanner); // pythia instance
         
         crpropa::Random rand;
         int seed = rand.randInt(900000000);
@@ -45,6 +46,10 @@ public:
         
         for (int i; i < IdDecaying.size(); i++)
             pythia.readString(std::to_string(IdDecaying[i]) + ":mayDecay = on"); // enable particle decay
+        
+        pythia.readString("Print:quiet = on");
+        pythia.readString("Init:showAllSettings = off");
+        pythia.readString("Init:showAllParticleData = off");
         
         pythia.init();
         generateSecondaries(Id, E, dir, pythia);

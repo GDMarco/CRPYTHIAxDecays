@@ -72,17 +72,36 @@ public:
         double p = getMomentum(E, mass);
         
         // (id, status, mother1, mother2, daughter1, daughter2, color1, color2, px, py, pz, e, m)
-        event.append(Id, 1, 0, 0, 0, 0, 0, 0, p * dir.x, p * dir.y, p * dir.z, E, mass);
+        if (std::abs(Id) == 15) {
+            // The tau polarization and tau decay correlation mechanism can be determined either using internal matrix elements or external SPINUP information provided in the event, e.g. via Les Houches Event Files (LHEF). The SPINUP digit is interpreted as the particle helicity state in the lab frame: -1 and 1 are longitudinal and 0 is transverse. Other values are not valid.
+            double scale = 1.0; // to understand!
+            int helicity;
+            
+            crpropa::Random random;
+            double rand = random.randUniform(0, 1);
+            
+            if (rand < 1. / 3.) {
+                helicity = 0;
+            } else if (1. / 3. < rand < 2. / 3.) {
+                helicity = 1;
+            } else {
+                helicity = -1;
+            }
+            
+            event.append(Id, 1, 0, 0, 0, 0, 0, 0, p * dir.x, p * dir.y, p * dir.z, E, mass, helicity, scale);
+        } else {
+            event.append(Id, 1, 0, 0, 0, 0, 0, 0, p * dir.x, p * dir.y, p * dir.z, E, mass);
+        }
         
         if (!pythia.next()) {
-            cout << "Event generation failed." << endl;
+            cout << "Event generation failed!" << endl;
         }
         
         std::vector<std::vector<double>> secondaries;
         
         for (int i = 0; i < event.size(); ++i) {
             if (event[i].isFinal()) {
-                vector<double> prop = { (double) event[i].id(), event[i].px(), event[i].py(), event[i].pz(), event[i].e()};
+                vector<double> prop = { (double) event[i].id(), event[i].px(), event[i].py(), event[i].pz(), event[i].e() };
                 secondaries.push_back(prop);
             }
         }
@@ -98,16 +117,27 @@ public:
 static const double tau_muon = 2.1969811e-6 * crpropa::second; // averaged proper time of the muon decay
 static const double mass_muon = 1.883531627e-28 * crpropa::kilogram;
 
+static const double tau_tauon = 2.903e-13 * crpropa::second;
+static const double mass_tauon = 3.167e-27 * crpropa::kilogram;
+
+static const double tau_neutral_pion = 8.43e-17 * crpropa::second;
+
 static const double tau_charged_pion = 2.6033e-8 * crpropa::second; // averaged proper time of the charged pion decay
+static const double tau_W_boson = 3e-25 * crpropa::second;
+
 // mass W boson
 static const double massWGeV = 80.379;
-static const double mWkg = 1.43288582 * 1e-25; // kg
+static const double mass_W_boson = 1.43288582e-25 * crpropa::kilogram;
+
 // static const double mW2 = (mWkg*c_light**2.) ** 2; //squared W mass [J^2/c^4]
 
 // mass charged pion
-static const double massPionGeV = 139.57039e-3; // GeV/c^2
-static const double mass_cpion = mWkg * massPionGeV / massWGeV * crpropa::kilogram;
-static const double mcpic2 = mass_cpion * crpropa::c_squared;
+static const double massChargedPionGeV = 139.57039e-3; // GeV / c^2
+static const double massNeutralPionGeV = 134.9768e-3; // GeV / c^2
+
+static const double mass_neutral_pion = mass_W_boson * massNeutralPionGeV / massWGeV;
+static const double mass_charged_pion = mass_W_boson * massChargedPionGeV / massWGeV;
+// static const double mcpic2 = mass_cpion * crpropa::c_squared;
 
 Decays::Decays(bool haveOtherSecondaries, bool haveNeutrinos, bool angularCorrection, double limit) { // double thinning,
     
@@ -158,8 +188,26 @@ void Decays::performDecay(crpropa::Candidate *candidate) const {
     
     candidate->setActive(false);
     
-    std::vector<int> IdDecaying = {13, 211};
-    bool hadronize = false;
+    std::vector<int> IdDecaying;
+    bool hadronize;
+    
+    if (std::abs(Id) == 24) {
+        IdDecaying = {13, 211, 130, 310, 311, 321};
+        hadronize = true;
+    } else if (std::abs(Id) == 211) {
+        IdDecaying = {13, 211};
+        hadronize = false;
+    } else if (Id == 111) {
+        IdDecaying = {111};
+        hadronize = false;
+    } else if (std::abs(Id) == 15) {
+        IdDecaying = {13, 15, 211, 111, 130, 310, 311, 321};
+        hadronize = true;
+    } else {
+        IdDecaying = {13};
+        hadronize = false;
+    }
+    
     Pythia8::PythiaDecay pythiaDecay(Id, E / crpropa::GeV, dir, IdDecaying, hadronize);
     
     std::vector<std::vector<double>> secondaries = pythiaDecay.getSecondaries();
@@ -248,7 +296,7 @@ void Decays::process(crpropa::Candidate *candidate) const {
     double t_lab, gamma;
     std::string tag;
     
-    // only for muons and charged pions
+    // muons, charged/neutral pions, tauons, W bosons
     if (std::abs(Id) == 13) {
         
         gamma = E / mass_muon / crpropa::c_squared;
@@ -257,11 +305,32 @@ void Decays::process(crpropa::Candidate *candidate) const {
         tag = "MD";
         
     } else if (std::abs(Id) == 211) {
-    
-        gamma = E / mcpic2;
+        
+        gamma = E / mass_charged_pion / crpropa::c_squared;
         t_lab = gamma * tau_charged_pion;
         
         tag = "CPD";
+        
+    } else if (std::abs(Id) == 15) {
+        
+        gamma = E / mass_tauon / crpropa::c_squared;
+        t_lab = gamma * tau_tauon;
+        
+        tag = "TD";
+        
+    } else if (Id == 111) {
+        
+        gamma = E / mass_neutral_pion / crpropa::c_squared;
+        t_lab = gamma * tau_neutral_pion;
+        
+        tag = "NPD";
+        
+    } else if (std::abs(Id) == 24) {
+        
+        gamma = E / mass_W_boson / crpropa::c_squared;
+        t_lab = gamma * tau_W_boson;
+        
+        tag = "WD";
         
     } else {
         return;

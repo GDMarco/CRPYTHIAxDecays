@@ -1,5 +1,5 @@
 # CRPYTHIAxDecays
-CRPropa code plugin that performs particle decays through Pythia code. At the current stage only the decays of muons and charged pions are implemented. The plan is to extend this plugin to the decay of other particles.  
+CRPropa code plugin that performs particle decays through Pythia code. At the current stage the decays of muons, neutral and charged pions, taouns and W bosons are implemented. The user can (de)activate hadronization and angular correction of the particles generated from the decays. 
 
 ## Structure
 The header of the `Decays` class is defined in `Decays.h`. The C++ file `Decays.cc` contains the decay class functions and a class to produce the decay's secondaries in Pythia code. The file `Decays.i` is the SWIG interface for python usage. 

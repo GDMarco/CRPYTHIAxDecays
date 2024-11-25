@@ -44,7 +44,7 @@ public:
             pythia.readString("HadronLevel:Hadronize = off");
         }
         
-        for (int i = 0; i < IdDecaying.size(); i++)
+        for (std::size_t i = 0; i < IdDecaying.size(); i++)
             pythia.readString(std::to_string(IdDecaying[i]) + ":mayDecay = on"); // enable particle decay
         
         pythia.readString("Print:quiet = on");
@@ -99,7 +99,7 @@ public:
         
         std::vector<std::vector<double>> secondaries;
         
-        for (int i = 0; i < event.size(); ++i) {
+        for (std::size_t i = 0; i < event.size(); ++i) {
             if (event[i].isFinal()) {
                 vector<double> prop = { (double) event[i].id(), event[i].px(), event[i].py(), event[i].pz(), event[i].e() };
                 secondaries.push_back(prop);
@@ -219,7 +219,7 @@ void Decays::performDecay(crpropa::Candidate *candidate) const {
     crpropa::Random &random = crpropa::Random::instance();
     crpropa::Vector3d pos = random.randomInterpolatedPosition(candidate->previous.getPosition(), candidate->current.getPosition());
     
-    for (int i = 0; i < secondaries.size(); i++) {
+    for (std::size_t i = 0; i < secondaries.size(); i++) {
         // to see how to use the w (it should be multiplicative)
         std::vector<double> row = secondaries[i];
         

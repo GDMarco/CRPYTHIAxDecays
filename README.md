@@ -7,7 +7,7 @@ The header of the `Decays` class is defined in `Decays.h`. The C++ file `Decays.
 The CMake installation file `CMakeList.txt` includes the coordinates to the Pythia library and include files. The installation can be tested through the script `testPlugin.py`. 
 
 # Installation
-For the installation of the CRPYTHIAzDecays plugin you need a running version of CRPropa (see [CRPropa installation documentation](https://crpropa.github.io/CRPropa3/pages/Installation.html)) and Pythia ([Pythia installation documentation](https://pythia.org/)).
+For the installation of the CRPYTHIAxDecays plugin you need a running version of CRPropa (see [CRPropa installation documentation](https://crpropa.github.io/CRPropa3/pages/Installation.html)) and Pythia ([Pythia installation documentation](https://pythia.org/)). The corresponding paths to the Pythia libraries and configure files need to be properly specified in the CMakeLists.txt file.
 
 First create a build folder within the plugin's directory and move there.
 

@@ -44,7 +44,7 @@ public:
             pythia.readString("HadronLevel:Hadronize = off");
         }
         
-        for (int i; i < IdDecaying.size(); i++)
+        for (int i = 0; i < IdDecaying.size(); i++)
             pythia.readString(std::to_string(IdDecaying[i]) + ":mayDecay = on"); // enable particle decay
         
         pythia.readString("Print:quiet = on");
@@ -82,7 +82,7 @@ public:
             
             if (rand < 1. / 3.) {
                 helicity = 0;
-            } else if (1. / 3. < rand < 2. / 3.) {
+            } else if (rand < 2. / 3.) {
                 helicity = 1;
             } else {
                 helicity = -1;

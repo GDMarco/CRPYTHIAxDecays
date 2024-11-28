@@ -71,7 +71,7 @@ include CMakeFiles/Decays.dir/flags.make
 
 Decays_wrap.cxx:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Decays_wrap.cxx"
-	swig -builtin -c++ -python -I/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/share/crpropa/swig_interface -I/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include -I/Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays/include -I/opt/homebrew/Frameworks/Python.framework/Versions/3.11/include/python3.11 -I/Applications/PYTHIA/pythia8311/include/Pythia8 -dirprot -o /Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays/build/Decays_wrap.cxx -outdir /Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays/build /Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays/Decays.i
+	swig -builtin -c++ -python -I/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/share/crpropa/swig_interface -I/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include -I/Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays/include -I/opt/homebrew/Frameworks/Python.framework/Versions/3.11/include/python3.11 -I/Applications/PYTHIA/pythia8311/include/Pythia8 -dirprot -o /Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays/build/Decays_wrap.cxx -outdir /Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays/build /Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays/Decays.i
 
 CMakeFiles/Decays.dir/Decays_wrap.cxx.o: CMakeFiles/Decays.dir/flags.make
 CMakeFiles/Decays.dir/Decays_wrap.cxx.o: Decays_wrap.cxx
@@ -112,7 +112,7 @@ Decays_EXTERNAL_OBJECTS =
 _Decays.so: CMakeFiles/Decays.dir/Decays_wrap.cxx.o
 _Decays.so: CMakeFiles/Decays.dir/Decays.cc.o
 _Decays.so: CMakeFiles/Decays.dir/build.make
-_Decays.so: /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/lib/libcrpropa.dylib
+_Decays.so: /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/lib/libcrpropa.dylib
 _Decays.so: /opt/homebrew/Frameworks/Python.framework/Versions/3.11/lib/libpython3.11.dylib
 _Decays.so: /Applications/PYTHIA/pythia8311/lib/libpythia8.dylib
 _Decays.so: /Applications/PYTHIA/pythia8311/bin/pythia8-config

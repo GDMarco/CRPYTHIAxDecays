@@ -74,7 +74,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(EXISTS "$ENV{DESTDIR}/Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays/build/lib/python3.11/site-packages/Decays/_Decays.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays/build/lib/python3.11/site-packages/Decays/_Decays.so")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/lib"
+      -delete_rpath "/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/lib"
       -delete_rpath "/Applications/PYTHIA/pythia8311/lib"
       "$ENV{DESTDIR}/Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays/build/lib/python3.11/site-packages/Decays/_Decays.so")
     if(CMAKE_INSTALL_DO_STRIP)

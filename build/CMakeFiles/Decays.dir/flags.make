@@ -4,7 +4,7 @@
 # compile CXX with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
 CXX_DEFINES = -DDecays_EXPORTS
 
-CXX_INCLUDES = -I/Applications/PYTHIA/pythia8311/include -I/Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays/include -I/Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays/build/include -I/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include -I/opt/homebrew/Frameworks/Python.framework/Versions/3.11/include/python3.11 -I/Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays
+CXX_INCLUDES = -I/Applications/PYTHIA/pythia8311/include -I/Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays/include -I/Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays/build/include -I/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include -I/opt/homebrew/Frameworks/Python.framework/Versions/3.11/include/python3.11 -I/Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays
 
 CXX_FLAGSarm64 = -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fPIC   /Applications/PYTHIA/pythia8311/bin/pythia8-config
 

@@ -3,10 +3,10 @@
 
 CMakeFiles/Decays.dir/Decays.cc.o: /Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays/Decays.cc \
   /Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays/Decays.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Module.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Candidate.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/ParticleState.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Vector3.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Module.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Candidate.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/ParticleState.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Vector3.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__assert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config \
@@ -738,16 +738,16 @@ CMakeFiles/Decays.dir/Decays.cc.o: /Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPY
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Referenced.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/AssocVector.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Referenced.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/AssocVector.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/map \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__tree \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Variant.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Variant.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/complex \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/sstream \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Common.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Units.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Random.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Common.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Units.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Random.h \
   /Applications/PYTHIA/pythia8311/include/Pythia8/Pythia.h \
   /Applications/PYTHIA/pythia8311/include/Pythia8/Analysis.h \
   /Applications/PYTHIA/pythia8311/include/Pythia8/Basics.h \
@@ -1707,27 +1707,27 @@ CMakeFiles/Decays.dir/Decays_wrap.cxx.o: Decays_wrap.cxx \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/map \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__tree \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/CRPropa.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Candidate.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/ParticleState.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Vector3.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Referenced.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/AssocVector.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Variant.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/CRPropa.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Candidate.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/ParticleState.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Vector3.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Referenced.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/AssocVector.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Variant.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/complex \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/sstream \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Common.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Cosmology.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/EmissionMap.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Geometry.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Grid.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/kiss/string.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/kiss/logger.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/GridTools.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/MagneticField.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Units.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Logging.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Version.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Common.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Cosmology.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/EmissionMap.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Geometry.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Grid.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/kiss/string.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/kiss/logger.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/GridTools.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/MagneticField.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Units.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Logging.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Version.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/fstream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/filesystem \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
@@ -1746,72 +1746,73 @@ CMakeFiles/Decays.dir/Decays_wrap.cxx.o: Decays_wrap.cxx \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Module.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/ModuleList.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Source.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/massDistribution/Density.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Module.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/ModuleList.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Source.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/massDistribution/Density.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/list \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/ParticleID.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/ParticleMass.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/PhotonBackground.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Random.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/AdiabaticCooling.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/advectionField/AdvectionField.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/Acceleration.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/Boundary.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/BreakCondition.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/CandidateSplitting.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/DiffusionSDE.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/EMDoublePairProduction.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/EMInverseComptonScattering.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/EMPairProduction.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/EMTripletPairProduction.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/ElasticScattering.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/ElectronPairProduction.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/HDF5Output.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/MomentumDiffusion.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/NuclearDecay.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/Observer.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Candidate.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Module.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Referenced.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Vector3.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Geometry.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/OutputShell.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/ParticleCollector.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/PhotoDisintegration.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/PhotoPionProduction.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/PhotonOutput1D.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/PropagationBP.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/PropagationCK.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/Redshift.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/RestrictToRegion.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/SimplePropagation.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/SynchrotronRadiation.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/TextOutput.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/Output.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/Tools.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/ParticleID.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/ParticleMass.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/PhotonBackground.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Random.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/AdiabaticCooling.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/advectionField/AdvectionField.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/Acceleration.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/Boundary.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/BreakCondition.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/CandidateSplitting.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/DiffusionSDE.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/EMDoublePairProduction.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/InteractionRates.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/EMInverseComptonScattering.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/EMPairProduction.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/EMTripletPairProduction.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/ElasticScattering.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/ElectronPairProduction.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/HDF5Output.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/MomentumDiffusion.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/NuclearDecay.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/Observer.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Candidate.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Module.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Referenced.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Vector3.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Geometry.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/OutputShell.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/ParticleCollector.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/PhotoDisintegration.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/PhotoPionProduction.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/PhotonOutput1D.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/PropagationBP.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/PropagationCK.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/Redshift.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/RestrictToRegion.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/SimplePropagation.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/SynchrotronRadiation.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/TextOutput.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/Output.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/Tools.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/set \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/ArchimedeanSpiralField.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/JF12Field.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/JF12FieldSolenoidal.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/GalacticMagneticField.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/MagneticFieldGrid.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/PolarizedSingleModeMagneticField.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/PT11Field.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/QuimbyMagneticField.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/TF17Field.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/CMZField.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/turbulentField/GridTurbulence.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/turbulentField/HelicalGridTurbulence.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/turbulentField/PlaneWaveTurbulence.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/turbulentField/TurbulentField.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/turbulentField/SimpleGridTurbulence.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/massDistribution/Nakanishi.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/massDistribution/Cordes.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/massDistribution/Massdistribution.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/massDistribution/Ferriere.h \
-  /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/massDistribution/ConstantDensity.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/ArchimedeanSpiralField.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/JF12Field.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/JF12FieldSolenoidal.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/GalacticMagneticField.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/MagneticFieldGrid.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/PolarizedSingleModeMagneticField.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/PT11Field.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/QuimbyMagneticField.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/TF17Field.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/CMZField.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/turbulentField/GridTurbulence.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/turbulentField/HelicalGridTurbulence.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/turbulentField/PlaneWaveTurbulence.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/turbulentField/TurbulentField.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/turbulentField/SimpleGridTurbulence.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/massDistribution/Nakanishi.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/massDistribution/Cordes.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/massDistribution/Massdistribution.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/massDistribution/Ferriere.h \
+  /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/massDistribution/ConstantDensity.h \
   /Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays/Decays.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/float.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include/float.h \
@@ -1821,77 +1822,71 @@ CMakeFiles/Decays.dir/Decays_wrap.cxx.o: Decays_wrap.cxx \
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include/float.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/massDistribution/ConstantDensity.h:
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/massDistribution/Ferriere.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/massDistribution/Ferriere.h:
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/massDistribution/Massdistribution.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/massDistribution/Massdistribution.h:
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/massDistribution/Cordes.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/massDistribution/Cordes.h:
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/massDistribution/Nakanishi.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/turbulentField/PlaneWaveTurbulence.h:
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/turbulentField/PlaneWaveTurbulence.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/CMZField.h:
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/turbulentField/HelicalGridTurbulence.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/TF17Field.h:
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/turbulentField/GridTurbulence.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/QuimbyMagneticField.h:
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/CMZField.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/PolarizedSingleModeMagneticField.h:
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/QuimbyMagneticField.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/JF12Field.h:
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/PolarizedSingleModeMagneticField.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/ArchimedeanSpiralField.h:
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/ArchimedeanSpiralField.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/Tools.h:
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/Output.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/Output.h:
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/TextOutput.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/TextOutput.h:
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/SynchrotronRadiation.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/SimplePropagation.h:
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/PropagationCK.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/RestrictToRegion.h:
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/RestrictToRegion.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/PropagationCK.h:
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/PhotonOutput1D.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/PropagationBP.h:
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/PhotoPionProduction.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/PhotonOutput1D.h:
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/PhotoDisintegration.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/PhotoPionProduction.h:
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/Observer.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/ParticleCollector.h:
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/NuclearDecay.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/NuclearDecay.h:
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/ElectronPairProduction.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/MomentumDiffusion.h:
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/ElasticScattering.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/HDF5Output.h:
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/EMPairProduction.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/ElectronPairProduction.h:
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/EMInverseComptonScattering.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/ElasticScattering.h:
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/InteractionRates.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/EMTripletPairProduction.h:
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/DiffusionSDE.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/EMPairProduction.h:
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/CandidateSplitting.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/DiffusionSDE.h:
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/BreakCondition.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/CandidateSplitting.h:
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/ModuleList.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/ParticleMass.h:
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/GridTools.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/ModuleList.h:
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/kiss/string.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/PhotoDisintegration.h:
-
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/MagneticField.h:
-
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Geometry.h:
-
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/CRPropa.h:
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Grid.h:
 
 /opt/homebrew/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/pyfpe.h:
 
@@ -1929,11 +1924,15 @@ CMakeFiles/Decays.dir/Decays_wrap.cxx.o: Decays_wrap.cxx \
 
 /opt/homebrew/Frameworks/Python.framework/Versions/3.11/include/python3.11/codecs.h:
 
+/opt/homebrew/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/picklebufobject.h:
+
 /opt/homebrew/Frameworks/Python.framework/Versions/3.11/include/python3.11/tracemalloc.h:
 
 /opt/homebrew/Frameworks/Python.framework/Versions/3.11/include/python3.11/weakrefobject.h:
 
 /opt/homebrew/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/warnings.h:
+
+/opt/homebrew/Frameworks/Python.framework/Versions/3.11/include/python3.11/genericaliasobject.h:
 
 /opt/homebrew/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/descrobject.h:
 
@@ -1961,6 +1960,12 @@ CMakeFiles/Decays.dir/Decays_wrap.cxx.o: Decays_wrap.cxx \
 
 /opt/homebrew/Frameworks/Python.framework/Versions/3.11/include/python3.11/methodobject.h:
 
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/HDF5Output.h:
+
+/opt/homebrew/Frameworks/Python.framework/Versions/3.11/include/python3.11/setobject.h:
+
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/Boundary.h:
+
 /opt/homebrew/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/listobject.h:
 
 /opt/homebrew/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/tupleobject.h:
@@ -1971,9 +1976,9 @@ CMakeFiles/Decays.dir/Decays_wrap.cxx.o: Decays_wrap.cxx \
 
 /opt/homebrew/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/floatobject.h:
 
-/opt/homebrew/Frameworks/Python.framework/Versions/3.11/include/python3.11/floatobject.h:
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/ParticleID.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/turbulentField/HelicalGridTurbulence.h:
+/opt/homebrew/Frameworks/Python.framework/Versions/3.11/include/python3.11/floatobject.h:
 
 /opt/homebrew/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/longintrepr.h:
 
@@ -1999,6 +2004,8 @@ CMakeFiles/Decays.dir/Decays_wrap.cxx.o: Decays_wrap.cxx \
 
 /opt/homebrew/Frameworks/Python.framework/Versions/3.11/include/python3.11/pymem.h:
 
+/opt/homebrew/Frameworks/Python.framework/Versions/3.11/include/python3.11/pymath.h:
+
 /opt/homebrew/Frameworks/Python.framework/Versions/3.11/include/python3.11/pymacro.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_s_ifmt.h:
@@ -2008,8 +2015,6 @@ CMakeFiles/Decays.dir/Decays_wrap.cxx.o: Decays_wrap.cxx \
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_timeval64.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/time.h:
-
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/GridTools.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/inttypes.h:
 
@@ -2067,15 +2072,11 @@ CMakeFiles/Decays.dir/Decays_wrap.cxx.o: Decays_wrap.cxx \
 
 /Applications/PYTHIA/pythia8311/include/Pythia8/LowEnergyProcess.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/kiss/logger.h:
-
 /Applications/PYTHIA/pythia8311/include/Pythia8/StringLength.h:
 
 /Applications/PYTHIA/pythia8311/include/Pythia8/SusyLesHouches.h:
 
 /Applications/PYTHIA/pythia8311/include/Pythia8/SLHAinterface.h:
-
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/Boundary.h:
 
 /Applications/PYTHIA/pythia8311/include/Pythia8/ResonanceWidths.h:
 
@@ -2121,8 +2122,6 @@ CMakeFiles/Decays.dir/Decays_wrap.cxx.o: Decays_wrap.cxx \
 
 /Applications/PYTHIA/pythia8311/include/Pythia8/ParticleData.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/GalacticMagneticField.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/operations.h:
 
 /opt/homebrew/Frameworks/Python.framework/Versions/3.11/include/python3.11/bltinmodule.h:
@@ -2139,8 +2138,6 @@ CMakeFiles/Decays.dir/Decays_wrap.cxx.o: Decays_wrap.cxx \
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/copy_options.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iomanip:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/stdbool.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/dlfcn.h:
@@ -2151,17 +2148,19 @@ CMakeFiles/Decays.dir/Decays_wrap.cxx.o: Decays_wrap.cxx \
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/list:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/turbulentField/SimpleGridTurbulence.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/set:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/queue:
 
 /Applications/PYTHIA/pythia8311/include/Pythia8/PythiaStdlib.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/max.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iomanip:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Units.h:
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Random.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_rune_t.h:
+
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Units.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/complex:
 
@@ -2170,8 +2169,6 @@ CMakeFiles/Decays.dir/Decays_wrap.cxx.o: Decays_wrap.cxx \
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/stdio.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/map:
-
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Referenced.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h:
 
@@ -2193,13 +2190,21 @@ CMakeFiles/Decays.dir/Decays_wrap.cxx.o: Decays_wrap.cxx \
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_ino64_t.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/EMInverseComptonScattering.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/common_type.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/remove_copy_if.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_in_port_t.h:
+
+/Applications/PYTHIA/pythia8311/include/Pythia8/Pythia.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/bind_front.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_ct_rune_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__format/enable_insertable.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_in_addr_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/log2.h:
 
@@ -2339,15 +2344,11 @@ CMakeFiles/Decays.dir/Decays_wrap.cxx.o: Decays_wrap.cxx \
 
 Decays_wrap.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/EmissionMap.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_sample.h:
 
 /Applications/PYTHIA/pythia8311/include/Pythia8/PhysicsBase.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_rotate.h:
-
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/massDistribution/Nakanishi.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/istream:
 
@@ -2359,6 +2360,8 @@ Decays_wrap.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_reverse_copy.h:
 
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/EMDoublePairProduction.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_replace.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_gid_t.h:
@@ -2366,8 +2369,6 @@ Decays_wrap.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_push_heap.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_partition_point.h:
-
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/advectionField/AdvectionField.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_partition.h:
 
@@ -2424,10 +2425,6 @@ Decays_wrap.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_timeval.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_inplace_merge.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_assignable.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_includes.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_generate_n.h:
 
@@ -2493,6 +2490,8 @@ Decays_wrap.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/partial_sort.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/sort.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/nth_element.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__utility/pair.h:
@@ -2513,6 +2512,8 @@ Decays_wrap.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/minmax.h:
 
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/advectionField/AdvectionField.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/binder1st.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_set_intersection.h:
@@ -2522,6 +2523,10 @@ Decays_wrap.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/sift_down.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/is_sorted_until.h:
+
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/MagneticField.h:
+
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Referenced.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/is_partitioned.h:
 
@@ -2533,9 +2538,9 @@ Decays_wrap.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/rotate.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__hash_table:
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/SimplePropagation.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/kiss/string.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__hash_table:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/includes.h:
 
@@ -2577,11 +2582,13 @@ Decays_wrap.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__random/uniform_random_bit_generator.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/massDistribution/Density.h:
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/massDistribution/ConstantDensity.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/equal.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_copy.h:
+
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Geometry.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/copy_backward.h:
 
@@ -2591,13 +2598,11 @@ Decays_wrap.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/half_positive.h:
 
-/opt/homebrew/Frameworks/Python.framework/Versions/3.11/include/python3.11/genericaliasobject.h:
-
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Random.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/binary_search.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/any_of.h:
+
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/EmissionMap.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/all_of.h:
 
@@ -2623,8 +2628,6 @@ Decays_wrap.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/wctype.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Logging.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/file_type.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/wctype.h:
@@ -2635,13 +2638,13 @@ Decays_wrap.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bits:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/EMDoublePairProduction.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_u_int64_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__concepts/constructible.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/find_end.h:
+
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/JF12Field.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/generate_n.h:
 
@@ -2683,13 +2686,13 @@ Decays_wrap.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/ranges_operations.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/PhotonBackground.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__memory/ranges_uninitialized_algorithms.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/mergeable.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/insert_iterator.h:
+
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Vector3.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/identity.h:
 
@@ -2759,6 +2762,8 @@ Decays_wrap.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/pthread/qos.h:
 
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/PT11Field.h:
+
 /opt/homebrew/Frameworks/Python.framework/Versions/3.11/include/python3.11/listobject.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_sigset_t.h:
@@ -2803,10 +2808,6 @@ Decays_wrap.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/syslimits.h:
 
-/opt/homebrew/Frameworks/Python.framework/Versions/3.11/include/python3.11/pymath.h:
-
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Vector3.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_trivially_assignable.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/string.h:
@@ -2823,17 +2824,11 @@ Decays_wrap.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/limits.h:
 
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/Acceleration.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/alloca.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__chrono/steady_clock.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/bind_front.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_in_addr_t.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_ct_rune_t.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__format/enable_insertable.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/climits:
 
@@ -2847,19 +2842,17 @@ Decays_wrap.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ratio:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/AssocVector.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__chrono/duration.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cwchar:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/counted_iterator.h:
 
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/TF17Field.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/ctype.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/atomic:
-
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/OutputShell.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_merge.h:
 
@@ -2870,6 +2863,8 @@ Decays_wrap.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__tuple:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/is_permutation.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/max.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/binary_function.h:
 
@@ -2885,6 +2880,8 @@ Decays_wrap.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/count_if.h:
 
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Logging.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__memory/shared_ptr.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/math.h:
@@ -2895,7 +2892,7 @@ Decays_wrap.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cmath:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Source.h:
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/PhotonBackground.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__compare/strong_order.h:
 
@@ -2913,8 +2910,6 @@ Decays_wrap.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/filesystem:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/PT11Field.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_types/_uintmax_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_reference.h:
@@ -2931,21 +2926,25 @@ Decays_wrap.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/compare:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/turbulentField/TurbulentField.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/copy_if.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/typeinfo:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__compare/partial_order.h:
 
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/AssocVector.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__utility/unreachable.h:
+
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Candidate.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__utility/integer_sequence.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_stable_sort.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/pop_heap.h:
+
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/JF12FieldSolenoidal.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__memory/compressed_pair.h:
 
@@ -2989,6 +2988,14 @@ Decays_wrap.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/distance.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_mode_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__errc:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_filesec_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__utility/swap.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_signed_integer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/iter_swap.h:
@@ -3003,6 +3010,8 @@ Decays_wrap.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/min.h:
 
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/GalacticMagneticField.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/string.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/decay.h:
@@ -3015,9 +3024,9 @@ Decays_wrap.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/subrange.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/Acceleration.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/data.h:
+
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/ParticleCollector.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_nothrow_copy_constructible.h:
 
@@ -3035,17 +3044,9 @@ Decays_wrap.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_remove_if.h:
 
-/Applications/PYTHIA/pythia8311/include/Pythia8/Logger.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__chrono/calendar.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/prev.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_adjacent_find.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__compare/compare_three_way_result.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/reverse_iterator.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_callable.h:
 
@@ -3076,6 +3077,8 @@ Decays_wrap.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/arm/arch.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/reference_wrapper.h:
+
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/OutputShell.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/mem_fn.h:
 
@@ -3117,8 +3120,6 @@ Decays_wrap.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_pthread/_pthread_key_t.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Candidate.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/resource.h:
 
 /Applications/PYTHIA/pythia8311/include/Pythia8/Analysis.h:
@@ -3141,9 +3142,9 @@ Decays_wrap.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/signal.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__errc:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_includes.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_mode_t.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_assignable.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/libkern/arm/OSByteOrder.h:
 
@@ -3194,6 +3195,8 @@ Decays_wrap.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__node_handle:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/in_found_result.h:
+
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Module.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_empty.h:
 
@@ -3253,6 +3256,8 @@ Decays_wrap.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__concepts/equality_comparable.h:
 
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/Tools.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_seek_set.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_blksize_t.h:
@@ -3262,6 +3267,8 @@ Decays_wrap.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__concepts/different_from.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__concepts/swappable.h:
+
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/MagneticFieldGrid.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__concepts/movable.h:
 
@@ -3299,8 +3306,6 @@ Decays_wrap.cxx:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__memory/pointer_traits.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/MagneticFieldGrid.h:
-
 /Applications/PYTHIA/pythia8311/include/Pythia8/StandardModel.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_rotate_copy.h:
@@ -3311,8 +3316,6 @@ Decays_wrap.cxx:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/enable_view.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/JF12FieldSolenoidal.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/make_signed.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_unsigned.h:
@@ -3320,8 +3323,6 @@ Decays_wrap.cxx:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_array.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_unbounded_array.h:
-
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/AdiabaticCooling.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__split_buffer:
 
@@ -3423,10 +3424,6 @@ Decays_wrap.cxx:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_signed.h:
 
-/opt/homebrew/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/picklebufobject.h:
-
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Common.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__concepts/same_as.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_va_list.h:
@@ -3456,6 +3453,8 @@ Decays_wrap.cxx:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/rotate_copy.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_const.h:
+
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/CRPropa.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__availability:
 
@@ -3487,6 +3486,10 @@ Decays_wrap.cxx:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/conjunction.h:
 
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Source.h:
+
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/kiss/logger.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_nothrow_default_constructible.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_convertible.h:
@@ -3517,13 +3520,11 @@ Decays_wrap.cxx:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/add_rvalue_reference.h:
 
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/MomentumDiffusion.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_primary_template.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/add_cv.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__memory/uses_allocator.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/incrementable_traits.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/lower_bound.h:
 
@@ -3539,14 +3540,6 @@ Decays_wrap.cxx:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/remove_const.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__concepts/predicate.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_types/_uint8_t.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_set_union.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cstddef:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__utility/auto_cast.h:
 
 /Applications/PYTHIA/pythia8311/include/Pythia8/Merging.h:
@@ -3559,11 +3552,11 @@ Decays_wrap.cxx:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_types.h:
 
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/turbulentField/SimpleGridTurbulence.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_enum.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/invoke.h:
-
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/SynchrotronRadiation.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__string/char_traits.h:
 
@@ -3579,6 +3572,8 @@ Decays_wrap.cxx:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/size.h:
 
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/EMTripletPairProduction.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/remove_all_extents.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_volatile.h:
@@ -3589,9 +3584,9 @@ Decays_wrap.cxx:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/concepts.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/BreakCondition.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__compare/common_comparison_category.h:
+
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/PropagationBP.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/integral_constant.h:
 
@@ -3611,9 +3606,13 @@ Decays_wrap.cxx:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__thread/poll_with_backoff.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/wrap_iter.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/incrementable_traits.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/turbulentField/GridTurbulence.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__memory/uses_allocator.h:
+
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Cosmology.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/wrap_iter.h:
 
 /opt/homebrew/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/objimpl.h:
 
@@ -3641,12 +3640,6 @@ Decays_wrap.cxx:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__compare/compare_weak_order_fallback.h:
 
-/Applications/PYTHIA/pythia8311/include/Pythia8/Pythia.h:
-
-/opt/homebrew/Frameworks/Python.framework/Versions/3.11/include/python3.11/setobject.h:
-
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/ParticleState.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/view_interface.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_polymorphic.h:
@@ -3660,6 +3653,8 @@ Decays_wrap.cxx:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_int8_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include/stdint.h:
+
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/ParticleState.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/strings.h:
 
@@ -3678,6 +3673,8 @@ Decays_wrap.cxx:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__utility/to_underlying.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_bounded_array.h:
+
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Variant.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_is_heap.h:
 
@@ -3699,6 +3696,8 @@ Decays_wrap.cxx:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_wctype.h:
 
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Common.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_ctermid.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_integral.h:
@@ -3715,6 +3714,8 @@ Decays_wrap.cxx:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_any_of.h:
 
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/AdiabaticCooling.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_scalar.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/in_out_result.h:
@@ -3723,7 +3724,7 @@ Decays_wrap.cxx:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_clock_t.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_rune_t.h:
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/massDistribution/Density.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/locale:
 
@@ -3735,13 +3736,13 @@ Decays_wrap.cxx:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/stddef.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_posix_availability.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/initializer_list:
 
 /opt/homebrew/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/dictobject.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_wctype.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_posix_availability.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/algorithm:
 
@@ -3759,6 +3760,8 @@ Decays_wrap.cxx:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/string:
 
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/turbulentField/TurbulentField.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_valid_expansion.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__chrono/high_resolution_clock.h:
@@ -3770,10 +3773,6 @@ Decays_wrap.cxx:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_replace_copy_if.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/version:
-
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/Redshift.h:
-
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/ParticleID.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/istreambuf_iterator.h:
 
@@ -3795,8 +3794,6 @@ Decays_wrap.cxx:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__chrono/system_clock.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/Observer.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_u_int16_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/iter_move.h:
@@ -3805,7 +3802,11 @@ Decays_wrap.cxx:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cstdio:
 
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/ParticleMass.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_copy_backward.h:
+
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/Redshift.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/AvailabilityVersions.h:
 
@@ -3827,15 +3828,15 @@ Decays_wrap.cxx:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__chrono/year_month_day.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Cosmology.h:
-
 /Applications/PYTHIA/pythia8311/include/Pythia8/JunctionSplitting.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/common_reference.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Variant.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_pthread/_pthread_types.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_set_union.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cstddef:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/gethostuuid.h:
 
@@ -3855,9 +3856,15 @@ Decays_wrap.cxx:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/cdefs.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/AvailabilityInternal.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types.h:
+
 /opt/homebrew/Frameworks/Python.framework/Versions/3.11/include/python3.11/pystrtod.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fd_zero.h:
+
+/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Version.h:
 
 /opt/homebrew/Frameworks/Python.framework/Versions/3.11/include/python3.11/rangeobject.h:
 
@@ -3869,25 +3876,19 @@ Decays_wrap.cxx:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/wchar.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/AvailabilityInternal.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/float.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_suseconds_t.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/merge.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__concepts/predicate.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Version.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_types/_uint8_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/merge.h:
 
 /opt/homebrew/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/fileutils.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iosfwd:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/comp.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__concepts/class_or_enum.h:
 
 /opt/homebrew/Frameworks/Python.framework/Versions/3.11/include/python3.11/bytesobject.h:
 
@@ -3897,12 +3898,14 @@ Decays_wrap.cxx:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_min_element.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Grid.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/reverse_iterator.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_filesec_t.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/comp.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__utility/swap.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__concepts/class_or_enum.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/sort.h:
+/Applications/PYTHIA/pythia8311/include/Pythia8/Logger.h:
 
-/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Module.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__chrono/calendar.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/prev.h:

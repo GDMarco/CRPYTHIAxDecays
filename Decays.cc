@@ -185,6 +185,7 @@ void Decays::performDecay(crpropa::Candidate *candidate) const {
     crpropa::ParticleState created = candidate->created;
     crpropa::ParticleState current = candidate->current;
     crpropa::ParticleState previous = candidate->previous;
+    crpropa::Candidate* parent = candidate;
     
     candidate->setActive(false);
     
@@ -249,7 +250,7 @@ void Decays::performDecay(crpropa::Candidate *candidate) const {
                     crpropa::Vector3d cDir(row[1], row[2], row[3]);
                     c->current.setDirection(cDir / cDir.getR());
                 }
-                // c->parent = this; // it is needed?? see which parameters the outputs take
+                c->parent = parent; // see which parameters the outputs take
                 
                 candidate->addSecondary(c);
             } else {
@@ -279,6 +280,7 @@ void Decays::performDecay(crpropa::Candidate *candidate) const {
                 crpropa::Vector3d cDir(row[1], row[2], row[3]);
                 c->current.setDirection(cDir / cDir.getR());
             }
+            c->parent = parent;
             candidate->addSecondary(c);
         } else {
             return;
@@ -289,7 +291,7 @@ void Decays::performDecay(crpropa::Candidate *candidate) const {
 void Decays::process(crpropa::Candidate *candidate) const {
     
     int Id = candidate->current.getId();
-    // double z = candidate->getRedshift();
+    double z = candidate->getRedshift();
     double E = candidate->current.getEnergy();
     double d = candidate->getTrajectoryLength();
     

@@ -4,10 +4,10 @@
 CMakeFiles/Decays.dir/Decays.cc.o
  /Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays/Decays.cc
  /Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays/Decays.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Module.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Candidate.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/ParticleState.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Vector3.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Module.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Candidate.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/ParticleState.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Vector3.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iostream
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__assert
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config
@@ -739,16 +739,16 @@ CMakeFiles/Decays.dir/Decays.cc.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_types/_nl_item.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Referenced.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/AssocVector.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Referenced.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/AssocVector.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/map
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__tree
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Variant.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Variant.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/complex
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/sstream
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Common.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Units.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Random.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Common.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Units.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Random.h
  /Applications/PYTHIA/pythia8311/include/Pythia8/Pythia.h
  /Applications/PYTHIA/pythia8311/include/Pythia8/Analysis.h
  /Applications/PYTHIA/pythia8311/include/Pythia8/Basics.h
@@ -1709,27 +1709,27 @@ CMakeFiles/Decays.dir/Decays_wrap.cxx.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/map
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__tree
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/CRPropa.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Candidate.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/ParticleState.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Vector3.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Referenced.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/AssocVector.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Variant.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/CRPropa.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Candidate.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/ParticleState.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Vector3.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Referenced.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/AssocVector.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Variant.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/complex
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/sstream
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Common.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Cosmology.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/EmissionMap.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Geometry.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Grid.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/kiss/string.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/kiss/logger.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/GridTools.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/MagneticField.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Units.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Logging.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Version.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Common.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Cosmology.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/EmissionMap.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Geometry.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Grid.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/kiss/string.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/kiss/logger.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/GridTools.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/MagneticField.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Units.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Logging.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Version.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/fstream
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/filesystem
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/copy_options.h
@@ -1748,72 +1748,73 @@ CMakeFiles/Decays.dir/Decays_wrap.cxx.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/path_iterator.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/u8path.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Module.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/ModuleList.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Source.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/massDistribution/Density.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Module.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/ModuleList.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Source.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/massDistribution/Density.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/list
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/ParticleID.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/ParticleMass.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/PhotonBackground.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Random.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/AdiabaticCooling.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/advectionField/AdvectionField.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/Acceleration.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/Boundary.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/BreakCondition.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/CandidateSplitting.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/DiffusionSDE.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/EMDoublePairProduction.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/EMInverseComptonScattering.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/EMPairProduction.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/EMTripletPairProduction.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/ElasticScattering.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/ElectronPairProduction.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/HDF5Output.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/MomentumDiffusion.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/NuclearDecay.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/Observer.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Candidate.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Module.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Referenced.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Vector3.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/Geometry.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/OutputShell.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/ParticleCollector.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/PhotoDisintegration.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/PhotoPionProduction.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/PhotonOutput1D.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/PropagationBP.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/PropagationCK.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/Redshift.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/RestrictToRegion.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/SimplePropagation.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/SynchrotronRadiation.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/TextOutput.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/Output.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/module/Tools.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/ParticleID.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/ParticleMass.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/PhotonBackground.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Random.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/AdiabaticCooling.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/advectionField/AdvectionField.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/Acceleration.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/Boundary.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/BreakCondition.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/CandidateSplitting.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/DiffusionSDE.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/EMDoublePairProduction.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/InteractionRates.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/EMInverseComptonScattering.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/EMPairProduction.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/EMTripletPairProduction.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/ElasticScattering.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/ElectronPairProduction.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/HDF5Output.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/MomentumDiffusion.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/NuclearDecay.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/Observer.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Candidate.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Module.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Referenced.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Vector3.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/Geometry.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/OutputShell.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/ParticleCollector.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/PhotoDisintegration.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/PhotoPionProduction.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/PhotonOutput1D.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/PropagationBP.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/PropagationCK.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/Redshift.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/RestrictToRegion.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/SimplePropagation.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/SynchrotronRadiation.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/TextOutput.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/Output.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/module/Tools.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/set
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/ArchimedeanSpiralField.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/JF12Field.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/JF12FieldSolenoidal.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/GalacticMagneticField.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/MagneticFieldGrid.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/PolarizedSingleModeMagneticField.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/PT11Field.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/QuimbyMagneticField.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/TF17Field.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/CMZField.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/turbulentField/GridTurbulence.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/turbulentField/HelicalGridTurbulence.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/turbulentField/PlaneWaveTurbulence.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/turbulentField/TurbulentField.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/magneticField/turbulentField/SimpleGridTurbulence.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/massDistribution/Nakanishi.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/massDistribution/Cordes.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/massDistribution/Massdistribution.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/massDistribution/Ferriere.h
- /Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include/crpropa/massDistribution/ConstantDensity.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/ArchimedeanSpiralField.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/JF12Field.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/JF12FieldSolenoidal.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/GalacticMagneticField.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/MagneticFieldGrid.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/PolarizedSingleModeMagneticField.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/PT11Field.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/QuimbyMagneticField.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/TF17Field.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/CMZField.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/turbulentField/GridTurbulence.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/turbulentField/HelicalGridTurbulence.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/turbulentField/PlaneWaveTurbulence.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/turbulentField/TurbulentField.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/magneticField/turbulentField/SimpleGridTurbulence.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/massDistribution/Nakanishi.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/massDistribution/Cordes.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/massDistribution/Massdistribution.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/massDistribution/Ferriere.h
+ /Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include/crpropa/massDistribution/ConstantDensity.h
  /Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays/Decays.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/float.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include/float.h

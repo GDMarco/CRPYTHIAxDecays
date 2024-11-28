@@ -211,13 +211,13 @@ CMAKE_STRIP:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/Xcode
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Path to a file.
-CRPROPA_INCLUDES:PATH=/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/include
+CRPROPA_INCLUDES:PATH=/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/include
 
 //Path to a library.
-CRPROPA_LIB:FILEPATH=/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/lib/libcrpropa.dylib
+CRPROPA_LIB:FILEPATH=/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/lib/libcrpropa.dylib
 
 //Path to a file.
-CRPROPA_SWIG_INTERFACE_FILES:PATH=/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/share/crpropa/swig_interface
+CRPROPA_SWIG_INTERFACE_FILES:PATH=/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/share/crpropa/swig_interface
 
 //Value Computed by CMake
 Decays_BINARY_DIR:STATIC=/Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays/build
@@ -226,7 +226,7 @@ Decays_BINARY_DIR:STATIC=/Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecay
 Decays_IS_TOP_LEVEL:STATIC=ON
 
 //Dependencies for the target
-Decays_LIB_DEPENDS:STATIC=general;/Applications/CRPropa/NuGammaInteraction/CRPropa3/build/lib/libcrpropa.dylib;general;/opt/homebrew/Frameworks/Python.framework/Versions/3.11/lib/libpython3.11.dylib;general;/Applications/PYTHIA/pythia8311/lib/libpythia8.dylib;general;/Applications/PYTHIA/pythia8311/bin/pythia8-config;
+Decays_LIB_DEPENDS:STATIC=general;/Applications/CRPropa/PositionDependentPhotonField/CRPropa3/build/lib/libcrpropa.dylib;general;/opt/homebrew/Frameworks/Python.framework/Versions/3.11/lib/libpython3.11.dylib;general;/Applications/PYTHIA/pythia8311/lib/libpythia8.dylib;general;/Applications/PYTHIA/pythia8311/bin/pythia8-config;
 
 //Value Computed by CMake
 Decays_SOURCE_DIR:STATIC=/Applications/CRPropa/CRPYTHIAxDecaysOpt/CRPYTHIAxDecays
@@ -406,12 +406,6 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
-//MODIFIED property for variable: CRPROPA_INCLUDES
-CRPROPA_INCLUDES-MODIFIED:INTERNAL=ON
-//MODIFIED property for variable: CRPROPA_LIB
-CRPROPA_LIB-MODIFIED:INTERNAL=ON
-//MODIFIED property for variable: CRPROPA_SWIG_INTERFACE_FILES
-CRPROPA_SWIG_INTERFACE_FILES-MODIFIED:INTERNAL=ON
 //Details about finding PythonInterp
 FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/opt/homebrew/bin/python3.11][v3.11.5()]
 //Details about finding PythonLibs

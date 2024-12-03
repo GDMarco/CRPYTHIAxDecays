@@ -177,6 +177,7 @@ void Decays::performDecay(crpropa::Candidate *candidate) const {
     int Id = candidate->current.getId();
     double E = candidate->current.getEnergy();
     double z = candidate->getRedshift();
+    double w = candidate->getWeight();
     crpropa::Vector3d dir = candidate->current.getDirection();
     crpropa::Vector3d pos0 = candidate->current.getPosition();
     double trajectoryLength = candidate->getTrajectoryLength();
@@ -214,7 +215,7 @@ void Decays::performDecay(crpropa::Candidate *candidate) const {
     std::vector<std::vector<double>> secondaries = pythiaDecay.getSecondaries();
     
     std::string decayTag = getDecayTag();
-    double w = 1; // not developed
+    // double w = 1; // not developed the decay weight
     
     // sample random position along current step
     crpropa::Random &random = crpropa::Random::instance();
@@ -231,7 +232,7 @@ void Decays::performDecay(crpropa::Candidate *candidate) const {
                 
                 c->setRedshift(z);
                 c->setTrajectoryLength(trajectoryLength - (pos0 - pos).getR());
-                c->updateWeight(w);
+                c->setWeight(w); // it inherits the weight from the parent
                 c->setTagOrigin(decayTag);
                 for (crpropa::Candidate::PropertyMap::const_iterator it = properties.begin(); it != properties.end(); ++it) {
                         c->setProperty(it->first, it->second);
@@ -261,7 +262,7 @@ void Decays::performDecay(crpropa::Candidate *candidate) const {
             
             c->setRedshift(z);
             c->setTrajectoryLength(trajectoryLength - (pos0 - pos).getR());
-            c->updateWeight(w);
+            c->setWeight(w); // it inherits the weight from the parent
             c->setTagOrigin(decayTag);
             
             for (crpropa::Candidate::PropertyMap::const_iterator it = properties.begin(); it != properties.end(); ++it) {
